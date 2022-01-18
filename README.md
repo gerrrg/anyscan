@@ -1,15 +1,15 @@
-# etherscan-python
+# python-blockchain-explorer
 
-[![Build Status](https://github.com/pcko1/etherscan-python/workflows/build/badge.svg)](https://github.com/pcko1/etherscan-python) 
-[![codecov](https://codecov.io/gh/pcko1/etherscan-python/branch/master/graph/badge.svg)](https://codecov.io/gh/pcko1/etherscan-python)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6db2e36886ee46f58720c6131ef58dd6)](https://app.codacy.com/gh/pcko1/etherscan-python?utm_source=github.com&utm_medium=referral&utm_content=pcko1/etherscan-python&utm_campaign=Badge_Grade)
-[![](https://img.shields.io/codeclimate/tech-debt/pcko1/etherscan-python)](https://codeclimate.com/github/pcko1/etherscan-python)
-[![Maintainability](https://api.codeclimate.com/v1/badges/94c15c6d8b1ec869a7fd/maintainability)](https://codeclimate.com/github/pcko1/etherscan-python/maintainability)
-[![CodeFactor](https://www.codefactor.io/repository/github/pcko1/etherscan-python/badge)](https://www.codefactor.io/repository/github/pcko1/etherscan-python)
+[![Build Status](https://github.com/orthogonalglobal/python-blockchain-explorer/workflows/build/badge.svg)](https://github.com/orthogonalglobal/python-blockchain-explorer) 
+[![codecov](https://codecov.io/gh/orthogonalglobal/python-blockchain-explorer/branch/master/graph/badge.svg)](https://codecov.io/gh/orthogonalglobal/python-blockchain-explorer)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6db2e36886ee46f58720c6131ef58dd6)](https://app.codacy.com/gh/orthogonalglobal/python-blockchain-explorer?utm_source=github.com&utm_medium=referral&utm_content=orthogonalglobal/python-blockchain-explorer&utm_campaign=Badge_Grade)
+[![](https://img.shields.io/codeclimate/tech-debt/orthogonalglobal/python-blockchain-explorer)](https://codeclimate.com/github/orthogonalglobal/python-blockchain-explorer)
+[![Maintainability](https://api.codeclimate.com/v1/badges/94c15c6d8b1ec869a7fd/maintainability)](https://codeclimate.com/github/orthogonalglobal/python-blockchain-explorer/maintainability)
+[![CodeFactor](https://www.codefactor.io/repository/github/orthogonalglobal/python-blockchain-explorer/badge)](https://www.codefactor.io/repository/github/orthogonalglobal/python-blockchain-explorer)
 
-[![PyPI](https://badge.fury.io/py/etherscan-python.svg)](https://badge.fury.io/py/etherscan-python)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/etherscan-python)
-![GitHub](https://img.shields.io/github/license/pcko1/etherscan-python)
+[![PyPI](https://badge.fury.io/py/python-blockchain-explorer.svg)](https://badge.fury.io/py/python-blockchain-explorer)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/python-blockchain-explorer)
+![GitHub](https://img.shields.io/github/license/orthogonalglobal/python-blockchain-explorer)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-385/)
 [![DOI](https://zenodo.org/badge/298646404.svg)](https://zenodo.org/badge/latestdoi/298646404)
 
@@ -18,7 +18,7 @@ A minimal, yet complete, Python API for [Etherscan.io](https://etherscan.io/).
 
 All standard and pro endpoints are provided. Kovan, Rinkeby and Ropsten testnets are also supported.
 
-Available on [PyPI](https://pypi.org/project/etherscan-python/). Powered by [Etherscan.io APIs](https://etherscan.io/apis#misc).
+Available on [PyPI](https://pypi.org/project/python-blockchain-explorer/). Powered by [Etherscan.io APIs](https://etherscan.io/apis#misc).
 
 
 ___
@@ -147,7 +147,7 @@ The following endpoints are provided:
 
 </details>
 
-*If you think that a newly-added method is missing, kindly open an [issue](https://github.com/pcko1/etherscan-python/issues) as a feature request and I will do my best to add it.*
+*If you think that a newly-added method is missing, kindly open an [issue](https://github.com/orthogonalglobal/python-blockchain-explorer/issues) as a feature request and I will do my best to add it.*
 
 ## Installation
 
@@ -158,13 +158,13 @@ If you wish to have access to the PRO endpoints, you should obtain elevated priv
 Install from source:
 
 ``` bash
-pip install git+https://github.com/pcko1/etherscan-python.git
+pip install git+https://github.com/orthogonalglobal/python-blockchain-explorer.git
 ```
 
-Alternatively, install from [PyPI](https://pypi.org/project/etherscan-python/):
+Alternatively, install from [PyPI](https://pypi.org/project/python-blockchain-explorer/):
 
 ```bash
-pip install etherscan-python
+pip install python-blockchain-explorer
 ```
 
 ## Unit tests
@@ -202,7 +202,7 @@ eth = Etherscan(YOUR_API_KEY, net="ropsten") # net name is case-insensitive, def
 
 ## Examples
 
-Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/pcko1/etherscan-python/tree/master/logs).  For example, if you want to use the method `get_block_number_by_timestamp`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_block_number_by_timestamp.json):
+Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/orthogonalglobal/python-blockchain-explorer/tree/master/logs).  For example, if you want to use the method `get_block_number_by_timestamp`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_block_number_by_timestamp.json):
 
 ``` json
 {
@@ -229,21 +229,21 @@ eth.get_block_number_by_timestamp(timestamp="1578638524", closest="before")
 
 ## Issues
 
-For problems regarding installing or using the package please open an [issue](https://github.com/pcko1/etherscan-python/issues). Kindly avoid disclosing potentially sensitive information such as your API keys or your wallet addresses.
+For problems regarding installing or using the package please open an [issue](https://github.com/orthogonalglobal/python-blockchain-explorer/issues). Kindly avoid disclosing potentially sensitive information such as your API keys or your wallet addresses.
 
 ## Cite
 
-Kotsias, P. C., pcko1/etherscan-python. *https://github.com/pcko1/etherscan-python (2020)*. doi:10.5281/zenodo.4306855
+Kotsias, P. C., orthogonalglobal/python-blockchain-explorer. *https://github.com/orthogonalglobal/python-blockchain-explorer (2020)*. doi:10.5281/zenodo.4306855
 
 or in ```bibtex```:
 
 ```bibtex
 @misc{Kotsias2020,
   author = {Kotsias, P.C.},
-  title = {pcko1/etherscan-python},
+  title = {orthogonalglobal/python-blockchain-explorer},
   year = {2020},
   publisher = {Zenodo},
-  url = {https://github.com/pcko1/etherscan-python},
+  url = {https://github.com/orthogonalglobal/python-blockchain-explorer},
   doi = {10.5281/zenodo.4306855}
 }
 ```
