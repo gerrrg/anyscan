@@ -1,6 +1,6 @@
-from etherscan.enums.actions_enum import ActionsEnum as actions
-from etherscan.enums.fields_enum import FieldsEnum as fields
-from etherscan.enums.modules_enum import ModulesEnum as modules
+from explorer.enums.actions_enum import ActionsEnum as actions
+from explorer.enums.fields_enum import FieldsEnum as fields
+from explorer.enums.modules_enum import ModulesEnum as modules
 
 
 class Blocks:
