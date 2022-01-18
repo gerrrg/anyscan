@@ -5,7 +5,7 @@ import time
 import os
 from unittest import TestCase
 
-from explorer.explorer import BlockchainExplorer
+from explorer.explorer import Etherscan
 
 CONFIG_PATH = "explorer/configs/{}-stable.json"
 API_KEY = os.environ["API_KEY"]  # Encrypted env var by Travis
@@ -29,7 +29,7 @@ class Case(TestCase):
         print(f"\nNET: {net}")
         print(f"MODULE: {self._MODULE}")
         config = load(CONFIG_PATH.format(net))
-        explorer = BlockchainExplorer(API_KEY, net)
+        explorer = Etherscan(API_KEY, net)
         for fun, v in config.items():
             if not fun.startswith("_"):  # disabled if _
                 if v["module"] == self._MODULE:
