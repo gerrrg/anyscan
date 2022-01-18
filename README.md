@@ -238,8 +238,8 @@ Kotsias, P. C., orthogonalglobal/python-blockchain-explorer. *https://github.com
 or in ```bibtex```:
 
 ```bibtex
-@misc{Kotsias2020,
-  author = {Kotsias, P.C.},
+@misc{orthogonal2022,
+  author = {Dion and Robert},
   title = {orthogonalglobal/python-blockchain-explorer},
   year = {2020},
   publisher = {Zenodo},

@@ -68,8 +68,8 @@ class TestGasTracker(Case):
     _MODULE = "gastracker"
 
 
-class TestPro(Case):
-    _MODULE = "pro"
+#class TestPro(Case):
+#    _MODULE = "pro"
 
 
 class TestProxy(Case):
