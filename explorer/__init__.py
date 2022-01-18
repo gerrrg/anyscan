@@ -1,4 +1,4 @@
-from .etherscan import Etherscan
+from .explorer import BlockchainExplorer
 from .modules.accounts import Accounts as accounts
 from .modules.blocks import Blocks as blocks
 from .modules.contracts import Contracts as contracts
