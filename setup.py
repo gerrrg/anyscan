@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="python-blockchain-explorer",
-    version="1.0.2",
+    version="1.0.3",
     description="A minimal, yet complete, python API for etherscan.io. arbiscan.io ...",
     url="https://github.com/orthogonalglobal/python-blockchain-explorer",
     author="Dion and Robert",
