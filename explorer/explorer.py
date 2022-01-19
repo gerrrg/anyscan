@@ -46,9 +46,9 @@ class BlockchainExplorer:
 
 class Etherscan(BlockchainExplorer):
     def __new__(cls, api_key: str, net: str = "MAIN"):
-        return BlockchainExplorer(api_key, net, prefix=fields.PREFIX)
+        return BlockchainExplorer(api_key, net = "MAIN", prefix=fields.PREFIX)
 
 
 class Arbiscan(BlockchainExplorer):
     def __new__(cls, api_key: str, net: str = "MAIN"):
-        return BlockchainExplorer(api_key, net, prefix="https://api.arbiscan.io/api?")
+        return BlockchainExplorer(api_key, net = "MAIN", prefix = "https://api.arbiscan.io/api?")
