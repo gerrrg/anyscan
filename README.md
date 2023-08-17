@@ -1,15 +1,15 @@
-# python-blockchain-explorer
+# anyscan
 
-[![Build Status](https://github.com/gerrrg/python-blockchain-explorer/workflows/build/badge.svg)](https://github.com/gerrrg/python-blockchain-explorer) 
-[![codecov](https://codecov.io/gh/gerrrg/python-blockchain-explorer/branch/master/graph/badge.svg)](https://codecov.io/gh/gerrrg/python-blockchain-explorer)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6db2e36886ee46f58720c6131ef58dd6)](https://app.codacy.com/gh/gerrrg/python-blockchain-explorer?utm_source=github.com&utm_medium=referral&utm_content=gerrrg/python-blockchain-explorer&utm_campaign=Badge_Grade)
-[![](https://img.shields.io/codeclimate/tech-debt/gerrrg/python-blockchain-explorer)](https://codeclimate.com/github/gerrrg/python-blockchain-explorer)
-[![Maintainability](https://api.codeclimate.com/v1/badges/94c15c6d8b1ec869a7fd/maintainability)](https://codeclimate.com/github/gerrrg/python-blockchain-explorer/maintainability)
-[![CodeFactor](https://www.codefactor.io/repository/github/gerrrg/python-blockchain-explorer/badge)](https://www.codefactor.io/repository/github/gerrrg/python-blockchain-explorer)
+[![Build Status](https://github.com/gerrrg/anyscan/workflows/build/badge.svg)](https://github.com/gerrrg/anyscan) 
+[![codecov](https://codecov.io/gh/gerrrg/anyscan/branch/master/graph/badge.svg)](https://codecov.io/gh/gerrrg/anyscan)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6db2e36886ee46f58720c6131ef58dd6)](https://app.codacy.com/gh/gerrrg/anyscan?utm_source=github.com&utm_medium=referral&utm_content=gerrrg/anyscan&utm_campaign=Badge_Grade)
+[![](https://img.shields.io/codeclimate/tech-debt/gerrrg/anyscan)](https://codeclimate.com/github/gerrrg/anyscan)
+[![Maintainability](https://api.codeclimate.com/v1/badges/94c15c6d8b1ec869a7fd/maintainability)](https://codeclimate.com/github/gerrrg/anyscan/maintainability)
+[![CodeFactor](https://www.codefactor.io/repository/github/gerrrg/anyscan/badge)](https://www.codefactor.io/repository/github/gerrrg/anyscan)
 
-[![PyPI](https://badge.fury.io/py/python-blockchain-explorer.svg)](https://badge.fury.io/py/python-blockchain-explorer)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/python-blockchain-explorer)
-![GitHub](https://img.shields.io/github/license/gerrrg/python-blockchain-explorer)
+[![PyPI](https://badge.fury.io/py/anyscan.svg)](https://badge.fury.io/py/anyscan)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/anyscan)
+![GitHub](https://img.shields.io/github/license/gerrrg/anyscan)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-385/)
 [![DOI](https://zenodo.org/badge/298646404.svg)](https://zenodo.org/badge/latestdoi/298646404)
 
@@ -17,7 +17,7 @@ A minimal, yet complete, Python API for [Etherscan.io](https://etherscan.io/).
 
 All standard and pro endpoints are provided. Designed to support any chain explorer powered by the Etherscan team.
 
-Available on [PyPI](https://pypi.org/project/python-blockchain-explorer/). Powered by [Etherscan.io APIs](https://etherscan.io/apis#misc).
+Available on [PyPI](https://pypi.org/project/anyscan/). Powered by [Etherscan.io APIs](https://etherscan.io/apis#misc).
 ___
 
 
@@ -144,7 +144,7 @@ The following endpoints are provided:
 
 </details>
 
-*If you think that a newly-added method is missing, kindly open an [issue](https://github.com/gerrrg/python-blockchain-explorer/issues) as a feature request and I will do my best to add it.*
+*If you think that a newly-added method is missing, kindly open an [issue](https://github.com/gerrrg/anyscan/issues) as a feature request and I will do my best to add it.*
 
 ## Installation
 
@@ -152,10 +152,10 @@ Before proceeding, you should register an account on [Etherscan.io](https://ethe
 
 If you wish to have access to the PRO endpoints, you should obtain elevated privileges via Etherscan's subscription service.
 
-Install from [PyPI](https://pypi.org/project/python-blockchain-explorer/):
+Install from [PyPI](https://pypi.org/project/anyscan/):
 
 ```bash
-pip install python-blockchain-explorer
+pip install anyscan
 ```
 
 ## Unit tests
@@ -197,7 +197,7 @@ eth = Etherscan(YOUR_API_KEY, net="ropsten") # net name is case-insensitive, def
 
 ## Examples
 
-Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/gerrrg/python-blockchain-explorer/tree/master/logs).  For example, if you want to use the method `get_block_number_by_timestamp`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_block_number_by_timestamp.json):
+Examples (arguments and results) for all methods may be found as JSON files [here](https://github.com/gerrrg/anyscan/tree/master/logs).  For example, if you want to use the method `get_block_number_by_timestamp`, you can find the supported arguments and the format of its output in its respective [JSON file](logs/standard/get_block_number_by_timestamp.json):
 
 ``` json
 {
