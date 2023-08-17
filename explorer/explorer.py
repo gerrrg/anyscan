@@ -43,12 +43,6 @@ class BlockchainExplorer:
                 setattr(cls, func, cls.__run(attr, api_key, net, prefix))
         return cls
 
-
 class Etherscan(BlockchainExplorer):
-    def __new__(cls, api_key: str, net: str = "MAIN"):
-        return super().__new__(cls, api_key, net = "MAIN", prefix=fields.PREFIX)
-
-
-class Arbiscan(BlockchainExplorer):
-    def __new__(cls, api_key: str, net: str = "MAIN"):
-        return super().__new__(cls, api_key, net = "MAIN", prefix="https://api.arbiscan.io/api?")
+    def __new__(cls, api_key: str, net: str = "MAIN", prefix=fields.PREFIX):
+        return super().__new__(cls, api_key, net=net, prefix=prefix)
