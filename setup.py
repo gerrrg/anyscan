@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name="python-blockchain-explorer",
-    version="1.0.3",
-    description="A minimal, yet complete, python API for etherscan.io. arbiscan.io ...",
-    url="https://github.com/orthogonalglobal/python-blockchain-explorer",
-    author="Dion and Robert",
+    name="anyscan",
+    version="1.0.0",
+    description="A minimal, yet complete, python API for any block explorer powered by the Etherscan team. (e.g. etherscan.io, arbiscan.io, polygonscan.com, ...",
+    url="https://github.com/gerrrg/anyscan",
+    author="gerrrg",
     license="MIT",
     packages=[
         "explorer",
